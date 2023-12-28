@@ -1,5 +1,5 @@
 FROM ubuntu: 18.04
-MAINTAINER eshansh zaware esha<zawareeshansh@gmail.com›
+MAINTAINER eshansh 
 RUN apt update && \ 
     apt install -y iputils-ping iproute2
 RUN apt install -y nginx
