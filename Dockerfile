@@ -1,4 +1,4 @@
-FROM ubuntu: 18.04
+FROM ubuntu:18.04
 MAINTAINER eshansh 
 RUN apt update && \ 
     apt install -y iputils-ping iproute2
